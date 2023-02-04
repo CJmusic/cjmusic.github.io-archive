@@ -1,11 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
-#myVideo {
+#bgvideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
 }
+#banner {
+/*   height: 180px;
+  */
+  position: fixed;
+  bottom: 0;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  background-color: blue;
+}
+
 
 /* Add some content at the bottom of the video/page */
 .content {
@@ -14,6 +29,7 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
+/*   height: 100%; */
   padding: 20px;
 }
 
@@ -32,3 +48,5 @@
   background: #ddd;
   color: black;
 }
+
+
