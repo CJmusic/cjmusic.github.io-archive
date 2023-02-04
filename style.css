@@ -13,12 +13,22 @@ html {
 #banner {
 /*   height: 180px;
   */
-  position: fixed;
+  position: absolute;
   bottom: 0;
   height: 180px;
   background: rgba(0, 0, 0, 0.5);
-  overflow: auto;
-  background-color: blue;
+  overflow: visible;
+/*   background-color: getBackgroundColour(); */
+}
+#content {
+/*   height: 180px;
+  */
+  position: absolute;
+  bottom: 0;
+  height: 800;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: visible;
+  background-color: white;
 }
 
 
