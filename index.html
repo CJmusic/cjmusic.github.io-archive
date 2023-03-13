@@ -7,19 +7,22 @@
   <title>Chris Joseph</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
-
-<video autoplay muted id="bgvideo">
-  <source src="resources/IMG_0064.mp4" type="video/mp4">
+<body>
+<!-- <script> alert("yabish")</script> -->
+<!-- <script src = "loopingvideo.js"> </script> -->
+<video autoplay muted id="bgvideo" onended="loopFunction()">
+  <source src="resources/IMG_0064.mp4" 
+	  	  type="video/mp4">
 </video>
-	<script> 
+<script>
+function loopFunction() {	
 	var vid = document.getElementById("bgvideo");
-    vid.onended = loopFunction(){
-    alert("loopFunction called")	
 	vid.setAttribute("src", "resources/loopingVinyl.mp4")
 	vid.loop = true
-    };
-	</script>
+	vid.play()
+};
+</script>
+	
 
 <div id="banner" class="content" style="overflow">
   <h1>Chris Joseph</h1>
@@ -34,5 +37,5 @@
 <div content="content.html"></div>
 
 
-	
+</body>
 </html>
