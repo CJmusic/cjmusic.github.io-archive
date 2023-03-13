@@ -6,13 +6,20 @@
   <meta name="viewport" content="width=device-width">
   <title>Chris Joseph</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="loopingvideo.js"></script>
-
 </head>
 
-<video autoplay muted loop id="bgvideo">
+
+<video autoplay muted id="bgvideo">
   <source src="resources/IMG_0064.mp4" type="video/mp4">
 </video>
+	<script> 
+	var vid = document.getElementById("bgvideo");
+    vid.onended = loopFunction(){
+    alert("loopFunction called")	
+	vid.setAttribute("src", "resources/loopingVinyl.mp4")
+	vid.loop = true
+    };
+	</script>
 
 <div id="banner" class="content" style="overflow">
   <h1>Chris Joseph</h1>
@@ -26,21 +33,6 @@
 
 <div content="content.html"></div>
 
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script>
-VideoPlayer1 = document.getElementById('bgvideo');
-VideoPlayer2 = document.getElementById('bgvideoloop');
-VideoPlayer1.addEventListener('ended', videoLooper, false);
-
-function videoLooper()
-{
-    VideoPlayer2.play();
-    $(VideoPlayer2).show();
-    $(VideoPlayer1).hide();
-}
-</script>
 
 	
 </html>
