@@ -15,11 +15,11 @@
 	  	  type="video/mp4">
 </video>
 <script>
+var vid = document.getElementById("bgvideo");
 function loopFunction() {	
-	var vid = document.getElementById("bgvideo");
 	vid.setAttribute("src", "resources/loopingVinyl.mp4")
 	vid.loop = true
-	vid.play()
+	// vid.play()
 };
 </script>
 	
