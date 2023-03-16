@@ -41,10 +41,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   jekyll
   jekyll-seo-tag
   rexml
   webrick
 
 BUNDLED WITH
-   2.2.32
+   2.4.8
