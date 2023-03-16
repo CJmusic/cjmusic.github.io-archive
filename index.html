@@ -14,11 +14,18 @@
   <source src="resources/IMG_0064.mp4" 
 	  	  type="video/mp4">
 </video>
+	<video muted id="loopvideo" >
+  <source src="resources/loopingVideo.mp4" 
+	  	  type="video/mp4">
+</video>
 <script>
 var vid = document.getElementById("bgvideo");
+var loopvid = document.getElementById("loopvideo")
 function loopFunction() {	
-	vid.setAttribute("src", "resources/loopingVinyl.mp4")
-	vid.loop = true
+	 // vid.setAttribute("src", "")
+	vid.display="none"
+	// vid.loop = true
+	loopvid.play();
 	// vid.play()
 };
 </script>
