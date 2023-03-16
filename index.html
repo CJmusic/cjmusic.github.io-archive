@@ -1,47 +1,66 @@
-<!DOCTYPE html>
-<html scroll-behavior: smooth;>
+---
+layout: default
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Chris Joseph</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+<div>
 
-<video autoplay muted loop id="bgvideo">
-  <source src="resources/IMG_0064.mp4" type="video/mp4">
-	</video>
-	<video autoplay muted loop id="bgvideoloop">
-  <source src="resources/loopingVinyl.mp4" type="video/mp4" display=None>
-</video>
+  <section>
+    <h1>Jekyll theme based on hack.css</h1>
 
-<div id="banner" class="content" style="overflow">
-  <h1>Chris Joseph</h1>
-  <p>Welcome to cjmusic.github.io!</p>
-  <button id="myBtn" onclick="myFunction()">My Music</button>
-  <button id="myBtn" onclick="myFunction()">My Resume</button>
-  <button id="myBtn" onclick="myFunction()">My Code</button>
-  <button id="myBtn" onclick="myFunction()">My YouTube</button>
-  <button id="myBtn" onclick="myFunction()">My Links</button>
+    <p>
+      Mobile-ready, modern, stylish, simple.
+    </p>
+  </section>
+
+  <section>
+    <h2>What is Jekyll?</h2>
+
+    <p>
+      <code>Jekyll</code> is a simple, blog-aware, static site generator
+      perfect for personal, project,
+      or organization sites. Think of it like a
+      file-based CMS, without all the complexity.
+      <code>Jekyll</code> takes your content, renders Markdown
+      and Liquid templates, and spits out a
+      complete, static website ready to be served by Apache,
+      Nginx or another web server.
+      <code>Jekyll</code> is the engine behind GitHub Pages,
+      which you can use to host sites right
+      from your GitHub repositories.
+    </p>
+  </section>
+
+  <section>
+    <h2>What is hack.css?</h2>
+
+    <p>
+      <code>hack.css</code> is a dead simple css framework. Chech out
+      <a href="https://hackcss.egoist.moe/">hackcss.egoist.moe</a> to know more.
+    </p>
+  </section>
+
+  <section>
+    <h2>Getting started</h2>
+
+    <p>
+      <ol>
+        <li>Make sure you have <code>Jekyll</code> up and running</li>
+        <li>Clone
+          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
+        </li>
+        <li>Customize it</li>
+        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
+      </ol>
+
+    </p>
+  </section>
+
+  <section>
+    <h2>Subscribe</h2>
+
+    <p>
+      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+  </section>
+
 </div>
-
-<div content="content.html"></div>
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script>
-VideoPlayer1 = document.getElementById('bgvideo');
-VideoPlayer2 = document.getElementById('bgvideoloop');
-VideoPlayer1.addEventListener('ended', videoLooper, false);
-
-function videoLooper()
-{
-    VideoPlayer2.play();
-    $(VideoPlayer2).show();
-    $(VideoPlayer1).hide();
-}
-</script>
-
-	
-</html>
