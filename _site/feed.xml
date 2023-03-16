@@ -4,10 +4,10 @@
     <title>jekyll-theme-hackcss</title>
     <description>A minimalistic theme for Jekyll, based on hack.css
 </description>
-    <link>https://wemake-services.github.io/jekyll-theme-hackcss</link>
-    <atom:link href="https://wemake-services.github.io/jekyll-theme-hackcss/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Mar 2023 21:38:46 +0000</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2023 21:38:46 +0000</lastBuildDate>
+    <link>https://cjmusic.github.io/jekyll-theme-hackcss</link>
+    <atom:link href="https://cjmusic.github.io/jekyll-theme-hackcss/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Mar 2023 22:00:49 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2023 22:00:49 +0000</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>
 </description>
         <pubDate>Wed, 15 Jan 2014 00:18:23 +0000</pubDate>
-        <link>https://wemake-services.github.io/jekyll-theme-hackcss/bash/2014/01/15/foreign-link.html</link>
-        <guid isPermaLink="true">https://wemake-services.github.io/jekyll-theme-hackcss/bash/2014/01/15/foreign-link.html</guid>
+        <link>https://cjmusic.github.io/jekyll-theme-hackcss/bash/2014/01/15/foreign-link.html</link>
+        <guid isPermaLink="true">https://cjmusic.github.io/jekyll-theme-hackcss/bash/2014/01/15/foreign-link.html</guid>
         
         
         <category>bash</category>
@@ -36,8 +36,8 @@
 &lt;p&gt;Suspendisse quis ante sed metus tristique tristique. Curabitur blandit diam at facilisis efficitur. Curabitur malesuada semper diam, nec fermentum metus tincidunt et. Nulla nec orci pretium turpis sodales efficitur suscipit euismod ligula. Sed iaculis sed nisi pulvinar efficitur. Curabitur at faucibus lectus. Etiam non cursus arcu. Phasellus urna eros, elementum vitae sodales quis, mollis a metus. Donec ultrices elementum turpis, eu aliquam leo maximus eu.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jan 2014 00:18:23 +0000</pubDate>
-        <link>https://wemake-services.github.io/jekyll-theme-hackcss/ruby/2014/01/15/xml.html</link>
-        <guid isPermaLink="true">https://wemake-services.github.io/jekyll-theme-hackcss/ruby/2014/01/15/xml.html</guid>
+        <link>https://cjmusic.github.io/jekyll-theme-hackcss/ruby/2014/01/15/xml.html</link>
+        <guid isPermaLink="true">https://cjmusic.github.io/jekyll-theme-hackcss/ruby/2014/01/15/xml.html</guid>
         
         
         <category>ruby</category>
@@ -51,8 +51,8 @@
 &lt;p&gt;Nullam molestie at risus vel aliquam. Morbi ornare cursus facilisis. Praesent tristique lobortis mi in ornare. Donec placerat arcu at ultricies ultricies. Proin ut iaculis erat. Nulla nec erat rutrum, blandit nunc volutpat, faucibus justo. Nam vel consectetur nunc.&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Dec 2013 00:18:23 +0000</pubDate>
-        <link>https://wemake-services.github.io/jekyll-theme-hackcss/ruby/2013/12/23/helloworld.html</link>
-        <guid isPermaLink="true">https://wemake-services.github.io/jekyll-theme-hackcss/ruby/2013/12/23/helloworld.html</guid>
+        <link>https://cjmusic.github.io/jekyll-theme-hackcss/ruby/2013/12/23/helloworld.html</link>
+        <guid isPermaLink="true">https://cjmusic.github.io/jekyll-theme-hackcss/ruby/2013/12/23/helloworld.html</guid>
         
         
         <category>ruby</category>
