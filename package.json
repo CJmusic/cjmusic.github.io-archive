@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "hack": "^0.8.1"
+    "bundle": "^2.1.0",
+    "hack": "^0.8.1",
+    "jekyll": "^3.0.0"
   }
 }
